@@ -1,5 +1,5 @@
 pip install pyinstaller
 
-pyinstaller main.pyinstaller
+pyinstaller main.py
 
 pyinstaller --onefile main.py
