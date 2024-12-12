@@ -4,6 +4,8 @@ import os
 from gtts import gTTS
 import google.generativeai as genai
 import streamlit as st
+from dotenv import load_dotenv
+
 
 
 
@@ -36,7 +38,7 @@ def takeCommand():
 
     try:
         print("Recognizing...")
-        query = r.recognize_google(audio,language="en-in")
+        query = r.recognize_google(audio,language="en")
         print(f"User said: {query}\n")
     except Exception as e:
         logging.info(e)
@@ -50,7 +52,7 @@ def text_to_speech(text):
 
 
 def gemini_model(user_input):
-    genai.configure(api_key="AIzaSyADPeUFMrU2weFZFdzA3K8lZ2cEQYDx14k")
+    genai.configure(api_key="AIzaSyCGkkw29VNA5Ttnzk_p5doJbwNyHgchdLg")
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content(user_input)
     results = response.text

@@ -3,3 +3,66 @@
 [ 2024-12-11 15:16:22,464 ] root - INFO - 
 [ 2024-12-11 15:18:55,576 ] root - INFO - 
 [ 2024-12-11 15:34:16,899 ] root - INFO - 
+[ 2024-12-11 21:20:52,423 ] root - INFO - 
+[ 2024-12-11 21:21:29,168 ] root - INFO - 
+[ 2024-12-11 21:21:48,628 ] root - INFO - 
+[ 2024-12-11 21:38:32,706 ] root - INFO - 
+[ 2024-12-11 21:39:40,202 ] root - INFO - 
+[ 2024-12-11 21:43:07,623 ] root - INFO - 
+[ 2024-12-12 08:38:46,254 ] root - INFO - recognition connection failed: [Errno 11001] getaddrinfo failed
+[ 2024-12-12 08:39:08,204 ] root - INFO - recognition connection failed: [Errno 11001] getaddrinfo failed
+[ 2024-12-12 08:39:08,204 ] root - INFO - recognition connection failed: [Errno 11001] getaddrinfo failed
+[ 2024-12-12 08:48:44,511 ] root - ERROR - Gemini API error: Timeout of 600.0s exceeded, last exception: 503 DNS resolution failed for generativelanguage.googleapis.com:443: UNAVAILABLE: getaddrinfo: WSA Error (No such host is known.
+ -- 11001)
+[ 2024-12-12 09:02:48,697 ] root - ERROR - Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+[ 2024-12-12 09:02:48,701 ] root - ERROR - Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+[ 2024-12-12 09:02:57,492 ] root - INFO - 
+[ 2024-12-12 09:02:57,661 ] root - INFO - 
+[ 2024-12-12 09:02:57,996 ] root - INFO - 
+[ 2024-12-12 09:02:58,927 ] root - ERROR - Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+[ 2024-12-12 09:02:59,081 ] root - ERROR - Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+[ 2024-12-12 09:02:59,413 ] root - ERROR - Gemini API error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+[ 2024-12-12 09:04:29,526 ] root - ERROR - Gemini API error: GEMINI_API_KEY not found in environment variables
+[ 2024-12-12 12:10:48,594 ] root - ERROR - Gemini API error: GEMINI_API_KEY not found in environment variables
+[ 2024-12-12 12:11:42,689 ] root - ERROR - Gemini API error: GEMINI_API_KEY not found in environment variables
+[ 2024-12-12 12:12:49,851 ] root - INFO - 
